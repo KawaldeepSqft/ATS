@@ -31,7 +31,7 @@ const Routings = () => {
   return (
     <div>
       <Routes>
-        <Route path="/Marketing-Website/" element={<Home subject={sub} setSubject={setSub} />} />
+        <Route path="/" element={<Home subject={sub} setSubject={setSub} />} />
         <Route path="/app-development" element={<AppDevelopment />} />
         <Route path="/web-development" element={<WebDevelopment   />} />
         <Route path="/seo" element={<Seo/>} />
